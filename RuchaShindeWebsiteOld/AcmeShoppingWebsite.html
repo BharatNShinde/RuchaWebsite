@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<!-- Template by quackit.com -->
+
+<!--
+http://free-templates.me/frames-templates/
+https://colorhunt.co/
+https://www.w3schools.com/w3css/w3css_templates.asp
+
+-->
+
+
+<html>
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+	<title>Acme Shopping</title>
+	<style type="text/css">
+		body {
+			margin: 0;
+			padding: 0;
+			overflow: hidden;
+			height: 100%;
+			max-height: 100%;
+			font-family: Sans-serif;
+			line-height: 1.5em;
+		}
+
+		main {
+			position: fixed;
+			top: 150px;
+			/* Set this to the height of the header */
+			bottom: 50px;
+			/* Set this to the height of the footer */
+			left: 230px;
+			right: 0;
+			overflow: auto;
+			background: #fff;
+			background-image: url('acme_bg.jpg');
+		}
+
+		#header {
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 250px;
+			overflow: hidden;
+			/* Disables scrollbars on the header frame. To enable scrollbars, change "hidden" to "scroll" */
+			/*background: #BCCE98;*/
+			background: #0081C9;
+		}
+
+		#footer {
+			position: absolute;
+			left: 0;
+			bottom: 0;
+			width: 100%;
+			height: 50px;
+			overflow: hidden;
+			/* Disables scrollbars on the footer frame. To enable scrollbars, change "hidden" to "scroll" */
+			/*background: #BCCE98;*/
+			background: #86E5FF;
+		}
+
+		#nav {
+			position: absolute;
+			top: 150px;
+			/* Set this to the height of the header */
+			bottom: 50px;
+			/* Set this to the height of the footer */
+			left: 0;
+			width: 230px;
+			overflow: auto;
+			/* Scrollbars will appear on this frame only when there's enough content to require scrolling. To disable scrollbars, change to "hidden", or use "scroll" to enable permanent scrollbars */
+			/*background: #DAE9BC;*/
+			background: #5BC0F8;
+		}
+
+		.innertube {
+			margin: 15px;
+			/* Provides padding for the content */
+		}
+
+		p {
+			color: #555;
+		}
+
+		nav ul {
+			/*list-style-type: none;*/
+			margin-left: 5%;
+			/*margin: 0;*/
+			padding: 0;
+		}
+
+		nav ol {
+			/*list-style-type: none;*/
+			margin-left: 5%;
+			/*margin: 0;*/
+			padding: 0;
+		}
+
+		nav ul a {
+			/*color: darkgreen;*/
+			color: white;
+			text-decoration: none;
+		}
+
+		nav ol a {
+			/*color: darkgreen;*/
+			color: white;
+			text-decoration: none;
+		}
+
+		h1 {
+			color: white;
+		}
+
+		/*IE6 fix*/
+		* html body {
+			padding: 50px 0 50px 230px;
+			/* Set the first value to the height of the header, the third value to the height of the footer, and last value to the width of the nav */
+		}
+
+		* html main {
+			height: 100%;
+			width: 100%;
+		}
+
+		.alignleft {
+			float: left;
+		}
+
+		.alignright {
+			float: right;
+		}
+
+		div.a {
+			font-size: x-large;
+			color: white;
+		}
+
+		div.b {
+			font-size: large;
+		}
+
+		div.c {
+			font-size: 150%;
+		}
+	</style>
+
+	<script type="text/javascript">
+		/* =============================
+		This script generates sample text for the body content. 
+		You can remove this script and any reference to it. 
+		 ============================= */
+		//var bodyText=["Remember, you are unique, just like everybody else.", "Too much agreement kills a good chat.", "Get your facts first, then you can distort them as you please.", "I intend to live forever. So far, so good.", "</p><p>A clear conscience is usually a sign of a bad memory.", "What's another word for Thesaurus?", "<h3>Heading</h3><p>Experience is something you don't get until just after you need it."]
+		var bodyText = ["Remember, you are unique, just like everybody else.", "Too much agreement kills a good chat.", "Get your facts first, then you can distort them as you please.", "I intend to live forever. So far, so good.", "</p><p>A clear conscience is usually a sign of a bad memory.", "What's another word for Thesaurus?", "<h3>Heading</h3><p>Experience is something you don't get until just after you need it."]
+		function generateText(sentenceCount) {
+			for (var i = 0; i < sentenceCount; i++)
+				document.write(bodyText[Math.floor(Math.random() * 7)] + " ")
+		}
+	</script>
+
+</head>
+
+<body>
+
+	<header id="header">
+
+		<section style="float: left; margin-left: 1%;">
+			<p style="color:white; font-size: xx-large;">ACME Corp Ltd.</p>
+			<p style="color:white; font-size: smaller;">
+				PG D303, Airport North, Pune, India.<br>
+				&#128231; ruchashinde0426@gmail.com  &#9742;1234567890 
+			</p>
+		
+		  </section>
+		  
+		  <aside style="float: right; margin-right: 1%; margin-top: 1%;">
+			<img src="flimages.jpg" style="height: 100px; width: 100px;">
+		  </aside>
+
+
+	</header>
+
+
+	<main>
+
+		<marquee direction="left">
+			The Brihan Maharashtra College of Commerce (BMCC) is a pioneering, premier degree commerce college in India,
+			situated in the city of Pune, Maharashtra. The College was established in 1943 by the Deccan Education
+			Society with a view to providing enlightened leadership and trained manpower in the field of commerce and
+			business to the country which was on the threshold of independence. The college is affiliated with the
+			University of Pune and has produced many notable leaders, businessmen and industrialists like Sharad Pawar,
+			Dr.Cyrus Poonawalla & Sulajja Firodia.
+		</marquee>
+
+		<img src="flimages.jpg">
+		<img src="fl1images.jpg">
+
+
+		<div class="innertube">
+			<h1>Heading</h1>
+			<p>
+				<script>generateText(30)</script>
+			</p>
+
+		</div>
+	</main>
+
+	<nav id="nav">
+		<div class="innertube">
+			<h1>Un-Ordered List</h1>
+			<ul style="color: white;">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ul>
+
+			<h1>Ordered List</h1>
+			<ol style="color: white;">
+				<li><a href="#">Link 1</a></li>
+				<li><a href="#">Link 2</a></li>
+				<li><a href="#">Link 3</a></li>
+				<li><a href="#">Link 4</a></li>
+				<li><a href="#">Link 5</a></li>
+			</ol>
+
+		</div>
+	</nav>
+
+	<footer id="footer">
+		<div class="innertube">
+			<p style="color: black;">&copy; 2023 ACME Corp Ltd. All rights reserved.</p>
+		</div>
+	</footer>
+
+</body>
+
+</html>
